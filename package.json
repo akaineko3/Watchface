@@ -1,0 +1,42 @@
+{
+    "author": "Pebble",
+    "dependencies": {},
+    "keywords": [],
+    "name": "tutorial-2-2",
+    "pebble": {
+        "displayName": "Tutorial-2-2",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "WEATHER_CITY_KEY": 2,
+            "WEATHER_ICON_KEY": 0,
+            "WEATHER_TEMPERATURE_KEY": 1
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "compatibility": "2.7",
+                    "file": "fonts/BRLNSR.ttf",
+                    "name": "FONT_BRLNSR_18",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/background.png",
+                    "name": "IMAGE_BACKGROUND",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "6b16654b-9875-4544-83bc-2e78c6b3e99c",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
